@@ -210,7 +210,6 @@ table {
 /* line 3, ../sass/_browser_window.sass */
 .browser-window {
   position: relative;
-  width: 100%;
   background-color: white;
   font-size: 0.8em;
   line-height: 1.5em;
@@ -224,12 +223,12 @@ table {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 13, ../sass/_browser_window.sass */
+/* line 12, ../sass/_browser_window.sass */
 .browser-window .browser-toolbar {
   padding: 2%;
   background-color: #dddddd;
 }
-/* line 17, ../sass/_browser_window.sass */
+/* line 16, ../sass/_browser_window.sass */
 .browser-window .url-input {
   width: 100%;
   background-color: #f9f9f9;
@@ -240,12 +239,12 @@ table {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 23, ../sass/_browser_window.sass */
+/* line 22, ../sass/_browser_window.sass */
 .browser-window .url {
   padding: 1% 2%;
   display: inline-block;
 }
-/* line 27, ../sass/_browser_window.sass */
+/* line 26, ../sass/_browser_window.sass */
 .browser-window .browser-button {
   width: 2%;
   height: auto;
@@ -260,7 +259,7 @@ table {
   -o-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 37, ../sass/_browser_window.sass */
+/* line 36, ../sass/_browser_window.sass */
 .browser-window .browser-button + .browser-button {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
