@@ -1,0 +1,38 @@
+@import "compass/css3"
+
+.browser-window
+    position: relative
+    width: 100%
+    background-color: #fff
+    font-size: 0.8em
+    line-height: 1.5em
+    overflow: hidden
+    +box-shadow(0 0 5px rgba(0,0,0,0.25))
+    +border-radius(4px)
+
+    .browser-toolbar
+        padding: 2%
+        background-color: #ddd
+
+    .url-input
+        width: 100%
+        background-color: #f9f9f9
+        color: #ccc
+        +border-radius(4px)
+
+    .url
+        padding: 1% 2%
+        display: inline-block
+
+    .browser-button
+        width: 2%
+        height: auto
+        float: right
+        padding: 0.5% 2% 1.5%
+        text-align: center
+        font-size: 2em
+        background-color: #eee
+        +border-radius(0 4px 4px 0)
+
+        + .browser-button
+            +border-radius(0)

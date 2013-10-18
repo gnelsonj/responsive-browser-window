@@ -1,0 +1,79 @@
+@import "normalize.sass"
+@import "browser_window.sass"
+
+html
+    font-family: 'Open Sans', sans-serif
+    font-size: 100%
+    color: #444
+    background-color: #FFECE0
+    border-top: 5px solid #F66000
+
+body
+    font-size: 1em
+    line-height: 1.875em
+    padding: 0 5%
+
+p, ol, h1, h2
+    margin: 0
+    padding: 0
+
+p, img
+    margin-bottom: 1.875em
+
+.header-base
+    line-height: 1.2em
+    color: #B53700
+    margin: 0
+    
+h1
+    @extend .header-base
+    font-size: 4em
+    font-weight: 200
+    text-align: center
+    margin: 0.9375em 0 0.9375em
+
+h2
+    @extend .header-base
+    font-size: 2em
+    font-weight: 200
+    text-align: center
+    margin-bottom: 0.9375em
+
+h3
+    @extend .header-base
+    font-size: 1.5em
+    font-weight: 200
+    margin-bottom: 1em
+
+h4
+    @extend .header-base
+    font-size: 1em
+    font-weight: 800
+    margin-bottom: 1.875em
+
+h5
+    @extend .header-base
+    font-size: 1em
+    font-weight: 400
+    margin-bottom: 1.875em
+    text-transform: uppercase  
+
+img
+    max-width: 100%
+
+p
+    &.first
+        font-size: 1.5em
+        line-height: 1.5em
+        margin-bottom: 1.25em
+
+.body-base
+    margin: 3em auto
+
+.skinny-body
+    @extend .body-base
+    max-width: 35em
+
+.wide-body
+    @extend .body-base
+    max-width: 55em
